@@ -29,38 +29,44 @@ Desafio Frontend [Contaazul](http://www.contaazul.com.br/)
 1. Faça o clone ou download deste projeto
 2. Vá até a pasta onde você clonou ou descompactou o projeto pelo **CMD** *(windows)* ou **Terminal** *(MAC)*
 3. Digite o comando abaixo para instalar as dependências do projeto
+    
     ```npm
     npm install
     ```
 
 ### Comandos
 - **Para rodar o projeto em Dev** digite:
-		```npm
+		
+    ```npm
     npm run dev
     ```
 
 Após isto será possível ver o projeto rodando no endereço:  [http://localhost:8080/](http://localhost:8080/)
 
 - **Para rodar o [ESLint](https://eslint.org/)** digite:
-		```npm
+		
+    ```npm
     npm run lint
     ```
 
 - **Para rodar teste unitário** "--single-run", digite:
-		```npm
+		
+    ```npm
     npm run test
     ```
 
 - **Para rodar teste unitário** "ChromeHeadless", digite:
-		```npm
+		
+    ```npm
     npm run unit
     ```
 
 - **Para gerar build** do projeto, digite:
-		```npm
+		
+    ```npm
     npm run build
     ```
-    
+
 Os arquivos gerados pelo Build estarão na pasta **"/dist"** na raiz do projeto
 Vale lembrar que os arquivos gerados pelo build não funcionam localmente, precisam ser abertos por um WebServer, mesmo que seja um server local.
 
