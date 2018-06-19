@@ -28,7 +28,8 @@ Desafio Frontend [Contaazul](http://www.contaazul.com.br/)
 
 1. Faça o clone ou download deste projeto
 2. Vá até a pasta onde você clonou ou descompactou o projeto pelo **CMD** *(windows)* ou **Terminal** *(MAC)*
-3. Digite o comando abaixo para instalar as dependências do projeto
+3. Certifique-se que voce está na pasta **WeatherNow** (caso você tenha clonado o projetou) ou na pasta **WeatherNow-master** (caso você tenha feito o download do proejto)
+4. Digite o comando abaixo para instalar as dependências do projeto:
     
     ```npm
     npm install
