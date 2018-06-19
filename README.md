@@ -31,7 +31,7 @@ Desafio Frontend [Contaazul](http://www.contaazul.com.br/)
 3. Digite o comando abaixo para instalar as dependências do projeto
     npm install
 
-###Comandos
+### Comandos
 - **Para rodar o projeto em Dev** digite:
 		npm run dev
 Após isto será possível ver o projeto rodando no endereço:  [http://localhost:8080/](http://localhost:8080/)
@@ -50,7 +50,7 @@ Após isto será possível ver o projeto rodando no endereço:  [http://localhos
 Os arquivos gerados pelo Build estarão na pasta **"/dist"** na raiz do projeto
 Vale lembrar que os arquivos gerados pelo build não funcionam localmente, precisam ser abertos por um WebServer, mesmo que seja um server local.
 
-##Observações gerais
+## Observações gerais
 1. Os arquivos de layout do **MarvelApp** não eram editáveis, sendo assim não consegui pegar **exatamente** o tamanho das fonts, espaçamentos, etc. Sendo assim tentei aproximar ** *no olho* ** o máximo possível do layout :)
 
 2. No [documento](http://ajudare.com/images/desafiofrontendcontaazul.pdf) de instrução para realizar o desafio, fala sobre as cores das temperaturas:
@@ -59,8 +59,8 @@ Vale lembrar que os arquivos gerados pelo build não funcionam localmente, preci
 em laranja
 > - Temperaturas **acima de 26 graus** devem ser exibidas em vermelho
 
-#####De acordo com estas intruções as temperaturas de **6 e 26 graus nao tem cor!**
+##### De acordo com estas intruções as temperaturas de **6 e 26 graus nao tem cor!**
 - Estou considerando a temperatura de **6 graus como cor laranja**
 - Estou considerando a temperatura de **26 graus como cor vemelho**
 
-3. Para facilitar o teste, dexei a minha AppId da API do OpenWeatherMap hardecoded no projeto, caso queiram mudar o AppID basta alterar o valor de **openWeatherID** no arquivo **/src/components/card/Card.vue**
+3. Para facilitar o teste, dexei a minha AppId da API do OpenWeatherMap hardcoded no projeto, caso queiram mudar o AppID basta alterar o valor de **openWeatherID** no arquivo **/src/components/card/Card.vue**
