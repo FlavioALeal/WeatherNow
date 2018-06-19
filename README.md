@@ -67,13 +67,13 @@ Após isto será possível ver o projeto rodando no endereço:  [http://localhos
     npm run build
     ```
 
-Os arquivos gerados pelo Build estarão na pasta **"/dist"** na raiz do projeto
+Os arquivos gerados pelo Build estarão na pasta **"/dist"** na raiz do projeto.
 Vale lembrar que os arquivos gerados pelo build não funcionam localmente, precisam ser abertos por um WebServer, mesmo que seja um server local.
 
 ## Observações gerais
 1. Os arquivos de layout do **MarvelApp** não eram editáveis, sendo assim não consegui pegar **exatamente** o tamanho das fonts, espaçamentos, etc. Sendo assim tentei aproximar ** *no olho* ** o máximo possível do layout :)
 
-2. No [documento](http://ajudare.com/images/desafiofrontendcontaazul.pdf) de instrução para realizar o desafio, fala sobre as cores das temperaturas:
+2. No [documento](http://ajudare.com/images/desafiofrontendcontaazul.pdf) de instrução para realizar o desafio, passa as seguintes instruções para as cores das temperaturas:
 > - Temperaturas igual ou **abaixo de 5** graus devem ser exibidas em azul
 > - Temperaturas **acima de 6 graus e igual ou abaixo de 25** devem ser exibidas
 em laranja
